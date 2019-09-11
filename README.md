@@ -33,3 +33,10 @@ Total element width = width + left padding + right padding + left border + right
 
 Total element height = height + top padding + bottom padding + top border + bottom border + top margin + bottom margin
 [170+10+10+5+5+0+0]=200
+
+>If 2 element are next to each other and share a margin then there margin colapses i.e. margin of the element whose margin is greater will be selected.
+
+>If you want to space out two elements away from each other you can use margin which is the best way to do it.
+
+>If you wanna space out an element from itself you need to use padding cause padding is inside the border and it includes the background color
+

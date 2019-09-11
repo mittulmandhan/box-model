@@ -5,11 +5,26 @@
 }
 
 .box-one {
+    height: 100px;
+    width: 100px;
+    /* background color of content */
     background-color: #eb5757;
-    border: 0 solid #9b51E0;
+    /* cleared out area around the content in the element */
+    padding: 20px;
+    border: 30px solid #9b51E0;
+    /* most outer part of the box model */
+    margin: 100px;
+    /* setting box-sizing property as border-box will start considering the mentioned height and width as the total height and width */
+    box-sizing: border-box;
 }
 
 .box-two {
     background-color: #2d9cdb;
-    border: #27ae60;
+    border: 0 solid #27ae60;
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    border: 30px solid #9b51E0;
+    /* margin between box-one and bo-two  */
+    margin: 70px;
 }
