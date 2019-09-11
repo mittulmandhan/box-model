@@ -1,4 +1,4 @@
-# BOX MODEL
+# CSS BOX MODEL
 
 Every element in css is a box wether it is a text, div or span.CSS Box Model is a box that wraps around every HTML element.You need to know howbox model works in order to set the height and width of an element.
 
