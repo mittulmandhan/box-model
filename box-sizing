@@ -1,0 +1,18 @@
+# box-sizing
+
+box-sizing is a CSS property that allows us to control the box-sizing behavior of an element.It allows us to include or exclude the padding, border and margin in an element's width and height accordingly.
+
+It takes 4 values as input:
+
+1.) content-box
+2.) padding-box
+3.) border-box
+4.) margin-box
+
+1.) content-box :- It is the default CSS box-sizing behavior.It only includes the content of an element in height and width.
+
+2.) padding-box :- This value includes content as well as padding in the box size i.e. height and width.
+
+3.) border-box :- Using this value will include content+padding+border in the height and width.
+
+4.) margin-box :- This value includes content+padding+border+margin(entire box model) in the box size.
